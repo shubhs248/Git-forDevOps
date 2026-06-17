@@ -79,6 +79,12 @@ git status
 
 ---
 
+## 🎤 Prepping for an interview?
+
+After you've run the scenarios, open **[INTERVIEW-QUESTIONS.md](INTERVIEW-QUESTIONS.md)** — the Git questions interviewers actually ask (including the "what would you do if..." scenarios), in plain English with short answers you can say out loud.
+
+---
+
 ## ⭐ Found this useful?
 
 If this lab helped you, here is how you can support it and help others find it:
