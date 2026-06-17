@@ -1,0 +1,13 @@
+# The throwaway practice repos that setup.py builds
+sandbox/
+
+# Python cache (setup.py)
+__pycache__/
+*.py[cod]
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
