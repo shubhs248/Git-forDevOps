@@ -1,5 +1,9 @@
 # Part 3 — History & Recovery
 
+*What `git reset` touches — `--soft`, `--mixed`, `--hard`:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/04-reset-types-dark.png"><img alt="git reset types" src="../docs/04-reset-types.png"></picture>
+
 ## 🎯 Goal
 Learn the "senior engineer" moves: tidy up messy history before sharing it, find exactly which commit broke something, and rescue work you thought was gone.
 

@@ -1,5 +1,9 @@
 # Part 1 — Git Fundamentals (Warm-up)
 
+*Git's three areas (plus the remote) — where every command moves your changes:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/01-git-areas-dark.png"><img alt="Git areas" src="../docs/01-git-areas.png"></picture>
+
 ## 🎯 Goal
 Refresh the everyday Git commands before you tackle the tricky scenarios in parts 2 and 3.
 

@@ -1,5 +1,13 @@
 # Part 2 — Branching & Merging
 
+*Branching and merging — a feature branch rejoining `main`:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/02-branching-dark.png"><img alt="Branching and merging" src="../docs/02-branching.png"></picture>
+
+*Merge vs rebase — same result, different history:*
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="../docs/03-merge-vs-rebase-dark.png"><img alt="Merge vs rebase" src="../docs/03-merge-vs-rebase.png"></picture>
+
 ## 🎯 Goal
 Get comfortable with the things that scare people most: a **merge conflict**, a **rebase**, and juggling **uncommitted work** when you need to switch branches.
 
