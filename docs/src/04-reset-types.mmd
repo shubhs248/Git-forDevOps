@@ -1,0 +1,8 @@
+flowchart TB
+    head[git reset moves HEAD back] --> soft[--soft:<br/>keep staged + working]
+    head --> mixed[--mixed:<br/>keep working, unstage]
+    head --> hard[--hard:<br/>discard everything]
+
+    class head edge
+    class soft,mixed app
+    class hard queue

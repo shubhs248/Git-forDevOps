@@ -1,0 +1,10 @@
+flowchart LR
+    wd[Working directory] -->|git add| stg[Staging area]
+    stg -->|git commit| local[Local repo]
+    local -->|git push| remote[(Remote repo)]
+    remote -->|git fetch / pull| local
+    local -->|git checkout| wd
+
+    class wd,local app
+    class stg edge
+    class remote data

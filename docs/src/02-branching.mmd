@@ -1,0 +1,9 @@
+flowchart LR
+    c1[C1] --> c2[C2] --> c3[C3 main]
+    c2 --> f1[F1 feature] --> f2[F2 feature]
+    c3 --> m[Merge commit]
+    f2 --> m
+
+    class c1,c2,c3 app
+    class f1,f2 edge
+    class m data

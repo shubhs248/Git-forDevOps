@@ -1,0 +1,12 @@
+flowchart TB
+    subgraph Merge
+      m1[main] --> mm[Merge commit<br/>keeps both histories]
+      mf[feature] --> mm
+    end
+    subgraph Rebase
+      r1[main] --> rr[feature replayed on top<br/>linear history]
+    end
+
+    class m1,r1 app
+    class mf edge
+    class mm,rr data

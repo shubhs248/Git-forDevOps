@@ -14,6 +14,22 @@ You can read about `git rebase` a hundred times, but you only really learn it th
 
 A small script builds **throwaway practice repos** inside a `sandbox/` folder. You do the task in there. If you mess it up, just rebuild and start fresh. Nothing you do can affect this lab or your real projects.
 
+## 🗺️ Visual overview
+
+A few pictures before the scenarios. Full set (light + dark, ready for slides/LinkedIn) is in the [diagram gallery](docs/README.md).
+
+**The three areas (+ remote)** — knowing where your changes live explains every Git command.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/01-git-areas-dark.png"><img alt="Git areas" src="docs/01-git-areas.png"></picture>
+
+**Branching & merging**, **merge vs rebase**, and **what `git reset` touches**.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/02-branching-dark.png"><img alt="Branching and merging" src="docs/02-branching.png"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/03-merge-vs-rebase-dark.png"><img alt="Merge vs rebase" src="docs/03-merge-vs-rebase.png"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="docs/04-reset-types-dark.png"><img alt="git reset types" src="docs/04-reset-types.png"></picture>
+
 ## 🗂️ What's inside
 
 ```
